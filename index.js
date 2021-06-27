@@ -8,6 +8,7 @@ const auth = require("./middlewares/authIT")
 const user = require("./routers/user.router")
 const post = require("./routers/post.router")
 
+
 const app = express();
 
 app.use(cors())

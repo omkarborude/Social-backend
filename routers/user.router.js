@@ -4,7 +4,6 @@ const authMiddle = require("../middlewares/authIT")
 const {getAllUser,signUpUser,loginUser,getUserById,updateUserDetails,updateUserFollowers} = require("../controller/user.controller")
 
 
-
 router.route("/getall")
 .get(getAllUser)
 

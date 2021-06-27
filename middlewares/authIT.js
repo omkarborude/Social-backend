@@ -5,7 +5,6 @@ const mySecret = process.env['jwt-secret']
 
 // do it later
 
-
 const authMiddle = async (req,res,next) => {
   try{
 

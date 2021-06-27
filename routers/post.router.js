@@ -9,7 +9,6 @@ router.route("/")
 .post(postNewPost)
 .put(removePost)
 
-
 router.param(":postId",getPostById)
 
 router.route("/:postId/like")

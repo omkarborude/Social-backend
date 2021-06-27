@@ -11,6 +11,7 @@ const getAllPost = async (req,res) =>  {
 }
 
 
+
 const postNewPost = async (req,res) => {
   try{
    const {user} = req;
